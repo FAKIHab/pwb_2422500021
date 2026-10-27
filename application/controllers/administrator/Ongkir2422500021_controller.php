@@ -21,7 +21,7 @@ class Ongkir2422500021_controller extends CI_Controller {
     {
         $data['title'] = 'Tambah Ongkir';
         $this->form_validation->set_rules('nama_ekspedisi021', 'Nama Ekspedisi', 'required|max_length[11]');
-        $this->form_validation->set_rules('jnis_layanan021', 'Jenis Layanan', 'required|max_length[30]');
+        $this->form_validation->set_rules('jenis_layanan021', 'Jenis Layanan', 'required|max_length[30]');
         $this->form_validation->set_rules('tarif_per_kg021', 'Tarif per Kg', 'required|max_length[10]');
         $this->form_validation->set_rules('status021', 'Status', 'required|max_length[15]');
 
@@ -39,7 +39,7 @@ class Ongkir2422500021_controller extends CI_Controller {
     {
         $data = [
             'nama_ekspedisi021' => trim($this->input->post('nama_ekspedisi021', TRUE)),
-            'jnis_layanan021' => trim($this->input->post('jnis_layanan021', TRUE)),
+            'jenis_layanan021' => trim($this->input->post('jenis_layanan021', TRUE)),
             'tarif_per_kg021' => trim($this->input->post('tarif_per_kg021', TRUE)),
             'status021' => trim($this->input->post('status021', TRUE)),
         ];
@@ -66,7 +66,7 @@ class Ongkir2422500021_controller extends CI_Controller {
         $ongkir = $this->ongkir_model->get_by_id($id);
         if ($ongkir) {
             $this->form_validation->set_rules('nama_ekspedisi021', 'Nama Ekspedisi', 'required|max_length[11]');
-            $this->form_validation->set_rules('jnis_layanan021', 'Jenis Layanan', 'required|max_length[30]');
+            $this->form_validation->set_rules('jenis_layanan021', 'Jenis Layanan', 'required|max_length[30]');
             $this->form_validation->set_rules('tarif_per_kg021', 'Tarif per Kg', 'required|max_length[10]');
             $this->form_validation->set_rules('status021', 'Status', 'required|max_length[15]');
 
@@ -90,7 +90,7 @@ class Ongkir2422500021_controller extends CI_Controller {
     {
         $data = [
             'nama_ekspedisi021' => trim($this->input->post('nama_ekspedisi021', TRUE)),
-            'jnis_layanan021' => trim($this->input->post('jnis_layanan021', TRUE)),
+            'jenis_layanan021' => trim($this->input->post('jenis_layanan021', TRUE)),
             'tarif_per_kg021' => trim($this->input->post('tarif_per_kg021', TRUE)),
             'status021' => trim($this->input->post('status021', TRUE)),
         ];

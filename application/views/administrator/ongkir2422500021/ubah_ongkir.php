@@ -12,8 +12,8 @@
                         <input class="form-control" type="text" name="nama_ekspedisi021" id="nama_ekspedisi021" maxlength="11" value="<?= html_escape(set_value('nama_ekspedisi021', $ongkir['nama_ekspedisi021'])) ?>" required>
                     </div>
                     <div class="form-group">
-                        <label for="jnis_layanan021">Jenis Layanan</label>
-                        <input class="form-control" type="text" name="jnis_layanan021" id="jnis_layanan021" maxlength="30" value="<?= html_escape(set_value('jnis_layanan021', $ongkir['jnis_layanan021'])) ?>" required>
+                        <label for="jenis_layanan021">Jenis Layanan</label>
+                        <input class="form-control" type="text" name="jenis_layanan021" id="jenis_layanan021" maxlength="30" value="<?= html_escape(set_value('jenis_layanan021', $ongkir['jenis_layanan021'])) ?>" required>
                     </div>
                     <div class="form-group">
                         <label for="tarif_per_kg021">Tarif per Kg</label>

@@ -46,7 +46,7 @@
                     <tr>
                       <td><?= $no++ ?></td>
                       <td><?= html_escape($ongkir['nama_ekspedisi021'] ?? '') ?></td>
-                      <td><?= html_escape($ongkir['jnis_layanan021'] ?? '') ?></td>
+                      <td><?= html_escape($ongkir['jenis_layanan021'] ?? '') ?></td>
                       <td><?= html_escape($ongkir['tarif_per_kg021'] ?? '') ?></td>
                       <td><?= html_escape($ongkir['status021'] ?? '') ?></td>
                       <td class="text-nowrap">
