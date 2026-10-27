@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 27, 2026 at 05:35 AM
+-- Generation Time: Oct 27, 2026 at 06:43 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -87,13 +87,13 @@ CREATE TABLE `ongkir2422500021` (
 --
 
 INSERT INTO `ongkir2422500021` (`id_ongkir021`, `nama_ekspedisi021`, `jnis_layanan021`, `tarif_per_kg021`, `status021`) VALUES
-(1, 'JNE', 'Regular', '10000', 'Aktif'),
+(1, 'JNT', 'Regular', '10000', 'Aktif'),
 (2, 'JNT', 'Express', '15000', 'Aktif'),
 (3, 'SiCepat', 'Regular', '12000', 'Aktif'),
-(4, 'POS Indones', 'Express', '18000', 'Tidak Aktif'),
+(4, 'POS Indo', 'Express', '18000', 'Tidak Aktif'),
 (5, 'AnterAja', 'Regular', '11000', 'Aktif'),
 (7, 'SIFAKIH', 'EXPRESS', '20000', 'tidak aktif'),
-(10, 'SIRAKA', 'EXPRESS', '30000', 'aktif');
+(10, 'SIRAJA', 'EXPRESS', '30000', 'Tidak Aktif');
 
 -- --------------------------------------------------------
 
@@ -190,7 +190,7 @@ ALTER TABLE `kategori`
 -- AUTO_INCREMENT for table `ongkir2422500021`
 --
 ALTER TABLE `ongkir2422500021`
-  MODIFY `id_ongkir021` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id_ongkir021` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `produk`
