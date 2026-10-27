@@ -51,6 +51,12 @@
                 </a>
               </li>
               <li class="nav-item">
+                 <a href="<?= base_url() ?>admin/ongkir2422500021" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>ongkir021</p>
+                </a>
+              </li>
+              <li class="nav-item">
                   <a href="<?= base_url() ?>admin/produk" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Produk</p>

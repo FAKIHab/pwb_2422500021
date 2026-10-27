@@ -19,11 +19,11 @@ class Kategori_controller extends CI_Controller {
 
     public function tambah_kategori()
     {
-        $data['title'] = 'Tambah Kategori';
 
         $this->form_validation->set_rules('nama_kategori', 'Nama Kategori', 'required');
 
         if ($this->form_validation->run() !== FALSE) {
+            $data['title'] = 'Tambah Kategori';
             $this->__simpan_kategori();
         } else {
             $this->load->view('administrator/templates/header', $data);
