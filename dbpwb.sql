@@ -22,6 +22,23 @@ SET time_zone = "+00:00";
 --
 
 -- --------------------------------------------------------
+-- Table structure for table `pelanggan`
+--
+
+CREATE TABLE `pelanggan` (
+  `id_pelanggan` int(11) NOT NULL AUTO_INCREMENT,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `nama_pelanggan` varchar(100) NOT NULL,
+  `telp_pelanggan` varchar(100) DEFAULT NULL,
+  `alamat` varchar(100) NOT NULL,
+  `kota` varchar(100) NOT NULL,
+  `kode_pos` int(11) NOT NULL,
+  `provinsi` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id_pelanggan`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
 
 --
 -- Table structure for table `administrator`

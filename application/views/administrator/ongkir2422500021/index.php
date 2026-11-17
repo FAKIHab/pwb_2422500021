@@ -45,10 +45,10 @@
                   <?php $no = 1; foreach ($list_ongkir as $ongkir) : ?>
                     <tr>
                       <td><?= $no++ ?></td>
-                      <td><?= html_escape($ongkir['nama_ekspedisi021'] ?? '') ?></td>
-                      <td><?= html_escape($ongkir['jenis_layanan021'] ?? '') ?></td>
-                      <td><?= html_escape($ongkir['tarif_per_kg021'] ?? '') ?></td>
-                      <td><?= html_escape($ongkir['status021'] ?? '') ?></td>
+                      <td><?= ($ongkir['nama_ekspedisi021'] ?? '') ?></td>
+                      <td><?= ($ongkir['jenis_layanan021'] ?? '') ?></td>
+                      <td><?= ($ongkir['tarif_per_kg021'] ?? '') ?></td>
+                      <td><?= ($ongkir['status021'] ?? '') ?></td>
                       <td class="text-nowrap">
                         <a href="<?= base_url('admin/ongkir2422500021/ubah/' . $ongkir['id_ongkir021']) ?>" class="badge bg-success">Ubah</a>
                         <a href="<?= base_url('admin/ongkir2422500021/hapus/' . $ongkir['id_ongkir021']) ?>" class="badge bg-danger" onclick="return confirm('Yakin ingin menghapus data ongkir ini?')">Hapus</a>

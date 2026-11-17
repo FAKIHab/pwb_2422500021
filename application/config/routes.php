@@ -69,3 +69,12 @@ $route['admin/ongkir2422500021'] = 'administrator/Ongkir2422500021_controller/in
 $route['admin/ongkir2422500021/tambah'] = 'administrator/Ongkir2422500021_controller/tambah_ongkir';
 $route['admin/ongkir2422500021/ubah/(:num)'] = 'administrator/Ongkir2422500021_controller/ubah_ongkir/$1';
 $route['admin/ongkir2422500021/hapus/(:num)'] = 'administrator/Ongkir2422500021_controller/hapus_ongkir/$1';
+$route['login'] = 'pelanggan_controller/login';
+$route['register'] = 'pelanggan_controller/register';
+$route['logout'] = 'pelanggan_controller/logout';
+$route['profil'] = 'pelanggan_controller/profil';
+
+#ecom
+$route['ecom'] = 'dashboard';
+$route['produk'] = 'produk_controller/detail';
+$route['produk/(:num)'] = 'produk_controller/detail/$1';
