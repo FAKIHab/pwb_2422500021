@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Dashboard - Title</title>
+    <title>FAKIH VAPE STORE - HomeVape</title>
     <link href="<?= base_url() ?>assets/css/styles.css" rel="stylesheet" />
     <script src="<?= base_url() ?>assets/plugins/fontawesome/js/all.js" crossorigin="anonymous"></script>
     <script src="<?= base_url() ?>assets/plugins/jquery/jquery-1.11.0.min.js" crossorigin="anonymous"></script>
@@ -18,7 +18,7 @@
 <body class="sb-nav-fixed">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-2" aria-label="Eighth navbar example">
         <div class="container">
-            <a class="navbar-brand" href="<?= base_url() ?>">Title</a>
+            <a class="navbar-brand" href="<?= base_url() ?>">FAKIH VAPE STORE</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -41,8 +41,8 @@
                 </form>
                 <?php if ($this->session->has_userdata('pelanggan_login')) : ?>
                     <div class="text-end">
-                        <a href="<?= base_url('keranjang') ?>" class="btn btn-outline-light me-2">Keranjang</a>
                         <a href="<?= base_url('profil') ?>" class="btn btn-outline-light me-2">Profil</a>
+                        <a href="<?= base_url('keranjang') ?>" class="btn btn-outline-light me-2">Keranjang</a>
                         <a href="<?= base_url('logout') ?>" class="btn btn-danger">Logout</a>
                     </div>
                 <?php else : ?>

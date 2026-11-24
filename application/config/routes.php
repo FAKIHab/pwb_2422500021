@@ -78,3 +78,10 @@ $route['profil'] = 'pelanggan_controller/profil';
 $route['ecom'] = 'dashboard';
 $route['produk'] = 'produk_controller/detail';
 $route['produk/(:num)'] = 'produk_controller/detail/$1';
+
+
+#Keranjang
+$route['keranjang'] = 'keranjang_controller/index';
+$route['keranjang/tambah'] = 'keranjang_controller/tambah';
+$route['keranjang/ubah'] = 'keranjang_controller/ubah_keranjang';
+$route['keranjang/hapus'] = 'keranjang_controller/hapus_produk_keranjang';

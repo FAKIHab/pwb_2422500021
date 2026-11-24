@@ -46,7 +46,7 @@ class Admin_auth_controller extends CI_Controller
             redirect('admin');
         } else {
             // jika tidak ada
-            $this->session->set_flashdata('message', '
+            $this->session->set_flashdata('login_error', '
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
                     Username dan password salah!!
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">

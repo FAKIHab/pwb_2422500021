@@ -17,15 +17,15 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="<?= base_url('admin/login') ?>"><b>Admin </b>VAPING STORE</a>
+    <a href="<?= base_url('admin/login') ?>"><b>Admin </b>FAKIH VAPE STORE | HOMEVAPE</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
       <p class="login-box-msg">Sign in to start your session</p>
       <!-- validation -->
-      <?php if ($this->session->flashdata('message')) : ?>
-        <?= $this->session->flashdata('message') ?>
+      <?php if ($this->session->flashdata('login_error')) : ?>
+        <?= $this->session->flashdata('login_error') ?>
       <?php endif ?>
 
       <form action="" method="post">
